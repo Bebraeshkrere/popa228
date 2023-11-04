@@ -8,54 +8,45 @@ body {
     width: 110%;
     height: 110%;
 }
+h1, h2, h3, h4, h5,h6{
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+    
+}
 
 h1{
 color: #5671A6;
-font-family: Poppins;
-font-size: 36px;
-font-style: normal;
 font-weight: 600;
-line-height: normal;
+font-size: 36px;
 }
 h2{
     color: #5671A6; 
-    font-family: Poppins;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+
 }
 h3{
     color: #5671A6;
-    font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 h4{
     color: #383838;
-    font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+
 }
 h5{
     color: #383838;
-    font-family: Poppins;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+
 }
 h6{
     color: #616161
-    font-family: Poppins;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 p{
 }
