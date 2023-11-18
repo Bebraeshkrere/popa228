@@ -1,3 +1,10 @@
 body {
     background-color: #5671A6;
 }
+
+.block1 {
+    width: 400px;
+    height: 200px;
+    background-color:  green;
+    margin-top: 20px;
+}
