@@ -1,0 +1,23 @@
+sidebar
+    -sidebar-profile
+    -sidebar-title
+        --h2
+        --h4
+    -p
+    -sidebar-links
+        --img
+        --img
+        --img
+        --img
+        --img
+    -btn-contact
+
+page-about (main)
+    -page-about__about (section)
+        --about__titles (div)
+            ---h2
+            ---p
+        --about__card-list (div)
+            ---about-card-item (article)
+            ---about-card-item
+            ---about-card-item

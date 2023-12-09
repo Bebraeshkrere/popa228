@@ -1,101 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html,
 body {
-    width: 100%;
-    height: 100%;
-}
-h1, h2, h3, h4, h5,h6{
-    font-family: Poppins;
-    font-style: normal;
-    line-height: normal;
-    
+  width: 100%;
+  height: 100%;
 }
 
-h1{
-color: #5671A6;
-font-weight: 600;
-font-size: 36px;
-}
-h2{
-    color: #5671A6; 
-    font-size: 32px;
-    font-weight: 600;
- 
-
-}
-h3{
-    color: #5671A6;
-    font-size: 16px;
-    font-weight: 600;
-}
-h4{
-    color: #383838;
-    font-size: 16px;
-    font-weight: 600;
-
-}
-h5{
-    color: #383838;
-    font-size: 14px;
-    font-weight: 500;
-
-}
-h6{
-    color: #616161
-    font-size: 12px;
-    font-weight: 400;
-}
-p{
-    ;
-}
-button{
-    padding: 10px 40px;
-    border-radius: 50px;
-    border: 2px solid #5671A6;
-    font-size: 16px;
-    font-weight: 600;
-    color: #5671A6;
-    cursor: pointer;
-    transition: 0.7s;
-}
-a{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tektur", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 600;
 }
 
-.btndemo {
-    background: none;
-
+h1 {
+  color: #5671a6;
+  font-size: 36px;
+}
+h2 {
+  color: #5671a6;
+  font-size: 32px;
+}
+h3 {
+  color: #5671a6;
+  font-size: 16px;
+}
+h4 {
+  color: #383838;
+  font-size: 16px;
+}
+/* year exp */
+h5 {
+  color: #383838;
+  font-size: 14px;
+}
+/* Даты */
+h6 {
+  color: #616161;
+  font-size: 12px;
+  font-weight: 400;
+}
+p {
+}
+button {
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: 2px solid #5671a6;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5671a6;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-.btncont {
-    background: #5671A6;
-    color: white;
-    
+.btn-demo {
+  background: none;
+}
+.btn-contact {
+  background: #5671a6;
+  color: white;
+}
+/* Изменение при наведении */
+.btn-demo:hover {
+  background: #5671a6;
+  color: white;
+}
+.btn-demo:active {
+  transform: scale(90%);
 }
 
-.btndemo:hover {
-    background: #5671A6;
-    color: white;
+.btn-contact:hover {
+  color: #5671a6;
+  background: none;
 }
 
-.btndemo:active {
-    transform: scale(90%);
-}
-
-.btncont:hover {
-    background:none;
-    color:#5671A6;
-}
-
-.sidebar p{
-    text-align: center;
-}
-.sidebar h4{
-    text-align: center;
-}
-.sidebar h2{
-    text-align: center;
+.main {
+  display: flex;
+  flex-grow: 1;
 }

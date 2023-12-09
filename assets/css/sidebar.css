@@ -1,22 +1,17 @@
+.sidebar {
+  width: 271px;
 
-.block1 {
-    width: 400px;
-    height: 600px;
-    background-color: lightblue;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 46px;    
-    padding-left: 46px;    
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 20px;
+  border-right: 1px solid #6d8096;
 }
-
-.sidebar{
-    width: 200px;
-    height: 60px;
-    background-color: none;
+.sidebar * {
+  text-align: center;
+}
+.sidebar p {
+  text-align: center;
 }

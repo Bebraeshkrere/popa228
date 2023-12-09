@@ -1,65 +1,81 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>печеньки</title>
-
+    <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/normalize.css" />
-  </head>
+    <script src="./assets/js/index.js"></script>
+  </head> 
+  
   <body class="wrapper">
     <header class="header">
-      <h1>Snicks Picky</h1>
-      <nav class="navi">
-        <div class="navi-menu">
+      <h1>Medoded</h1>
+      <nav class="navigation">
+        <div class="navigation-menu">
           <h3>ABOUT</h3>
           <h3>SKILLS</h3>
           <h3>SERVICES</h3>
           <h3>PORTFOLIO</h3>
         </div>
-        <svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="54"
-            height="30"
-            viewBox="0 0 54 30"
-            fill="none"
-          >
-            <rect
-              x="1"
-              y="1"
-              width="52"
-              height="28"
-              rx="14"
-              stroke="#5671A6"
-              stroke-width="2"
-            />
-            <rect x="5" y="6" width="18" height="18" rx="9" fill="#5671A6" />
-          </svg>
-        </svg>
+
+        <label for="switch" class="light-switch">
+          <input type="checkbox" id="switch" />
+          <div class="switcher"></div>
+        </label>
       </nav>
     </header>
-    <div class="block1">
-      <img src="./assets/img/profile.svg" alt="" />
-
-      <div class="sidebar">
-        <h2>Snicks Picky</h2>
-        <h4>Frontend Developer</h4>
-      </div>
-      <div class="sidebar">
+    <main class="main">
+      <aside class="sidebar">
+        <img src="./assets/img/profile.svg" alt="" />
+        <div class="sidebar-title">
+          <h2>Anton Developer</h2>
+          <h4>Frontend Developer</h4>
+        </div>
         <p>High level experience in web design and development knowledge.</p>
-      </div>
-      <div class="sidebar">
-        <img src="./assets/img/git.svg" alt="" />
-        <img src="./assets/img/git2.svg" alt="" />
-        <img src="./assets/img/git3.svg" alt="" />
-        <img src="./assets/img/git4.svg" alt="" />
-        <img src="./assets/img/git5.svg" alt="" />
-      </div>
-      <div class="sidebar">
-        <button class="btndemo">Contact Me</button>
-      </div>
-    </div>
+        <div class="sidebar-links">
+          <img src="./assets/img/icons/github.svg" alt="" />
+          <img src="./assets/img/icons/facebook.svg" alt="" />
+          <img src="./assets/img/icons/instagram.svg" alt="" />
+        </div>
+        <button class="btn-contact">Contact me</button>
+      </aside>
+      <main class="page-about">
+        <section class="page-about__about">
+          <div class="about__titles">
+            <h2>About</h2>
+            <p>
+              Web developer, with extensive knowledge and years of experience,
+              working in web technologies and UI/UX design, delivering quality
+              work.
+            </p>
+          </div>
+          <div class="about__card-list">
+            <article class="about-card-item">
+              <img src="./assets/img/icons/fire.svg" alt="" />
+              <footer class="about-card-item__footer">
+                <h4>Years experience</h4>
+                <h1>20</h1>
+              </footer>
+            </article>
+            <article class="about-card-item">
+              <img src="./assets/img/icons/projects.svg" alt="" />
+              <footer class="about-card-item__footer">
+                <h4>Completed projects</h4>
+                <h1>6</h1>
+              </footer>
+            </article>
+            <article class="about-card-item">
+              <img src="./assets/img/icons/house.svg" alt="" />
+              <footer class="about-card-item__footer">
+                <h4>Companies worked</h4>
+                <h1>3</h1>
+              </footer>
+            </article>
+          </div>
+        </section>
+      </main>
+    </main>
   </body>
 </html>
