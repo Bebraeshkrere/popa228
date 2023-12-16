@@ -1,14 +1,14 @@
-let name = 'berbra'
+let title = document.getElementsByClassName
+("header-title")
+console.log('Эл с классом header-title', title)
 
-console.log(name);
-var name1 = "dfdff"
-console.log(name1)
+let title2 = document.getElementsByTagName
+('h2')
+console.log('eses', title2)
+let switchBtn = document.getElementById('switch')
+console.log ('efeef', switchBtn)
 
-
-function name(params) {
-    let LetName = 'let'
-    var VarName ='Var'
-    console.log(LetName, VarName)
-
-    if (1==1)
-}
+let navigation = document.querySelectorAll('.navigation-menu h3')
+let navitem = document.querySelector('navigation-menu h3')
+console.log(navitem)
+navitem.innerHTML = 'drgh'
